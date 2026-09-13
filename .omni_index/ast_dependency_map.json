@@ -1,0 +1,699 @@
+[
+  {
+    "file": "extractor.py",
+    "dependencies": [
+      "subprocess"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CITATION.cff",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_words_subtoken_metrics.py",
+    "dependencies": [
+      "typing",
+      "abc",
+      "common",
+      "functools",
+      "reduce",
+      "tensorflow",
+      "tensorflow.keras.backend",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "preprocess.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_topk_word_predictions_layer.py",
+    "dependencies": [
+      "namedtuple",
+      "keras",
+      "collections",
+      "Layer",
+      "tensorflow.keras.layers",
+      "tensorflow",
+      "tensorflow.keras.backend"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build_extractor.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_attention_layer.py",
+    "dependencies": [
+      "keras",
+      "Layer",
+      "tensorflow.python",
+      "tensorflow.python.keras.layers",
+      "backend",
+      "tensorflow.python.keras",
+      "typing",
+      "tensorflow",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "tensorflow",
+      "KeyedVectors",
+      "gensim.models"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "model_base.py",
+    "dependencies": [
+      "config",
+      "vocabularies",
+      "typing",
+      "abc",
+      "common",
+      "Code2VecVocabs",
+      "Config",
+      "os",
+      "NamedTuple",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Input.java",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "vocabularies.py",
+    "dependencies": [
+      "argparse",
+      "config",
+      "enum",
+      "typing",
+      "pickle",
+      "Enum",
+      "common",
+      "itertools",
+      "Config",
+      "Namespace",
+      "os",
+      "tensorflow",
+      "chain",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_word_prediction_layer.py",
+    "dependencies": [
+      "keras",
+      "Layer",
+      "tensorflow.python",
+      "tensorflow.python.keras.layers",
+      "typing",
+      "common",
+      "functools",
+      "tensorflow.python.keras.backend",
+      "reduce",
+      "tensorflow",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_checkpoint_saver_callback.py",
+    "dependencies": [
+      "logging",
+      "tensorflow.python.keras.callbacks",
+      "defaultdict",
+      "config",
+      "keras",
+      "collections",
+      "time",
+      "typing",
+      "tensorflow.python",
+      "Config",
+      "Callback",
+      "datetime",
+      "tensorflow",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "keras_model.py",
+    "dependencies": [
+      "config",
+      "keras",
+      "keras_topk_word_predictions_layer",
+      "collections",
+      "AttentionLayer",
+      "vocabularies",
+      "PathContextReader",
+      "typing",
+      "List",
+      "keras_attention_layer",
+      "ModelTrainingStatus",
+      "namedtuple",
+      "TopKWordPredictionsLayer",
+      "Code2VecModelBase",
+      "partial",
+      "common",
+      "tensorflow.keras.layers",
+      "os",
+      "keras_words_subtoken_metrics",
+      "time",
+      "Input",
+      "keras_checkpoint_saver_callback",
+      "tensorflow.keras.callbacks",
+      "tensorflow.keras.backend",
+      "path_context_reader",
+      "sparse_top_k_categorical_accuracy",
+      "numpy",
+      "functools",
+      "Config",
+      "model_base",
+      "tensorflow.keras.metrics",
+      "VocabType",
+      "Callback",
+      "datetime",
+      "tensorflow",
+      "WordsSubtokenPrecisionMetric"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "preprocess.py",
+    "dependencies": [
+      "argparse",
+      "pickle",
+      "common",
+      "ArgumentParser",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "preprocess_csharp.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "common.py",
+    "dependencies": [
+      "collections",
+      "re",
+      "typing",
+      "List",
+      "itertools",
+      "takewhile",
+      "datetime",
+      "OrderedDict",
+      "tensorflow",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "config.py",
+    "dependencies": [
+      "logging",
+      "argparse",
+      "ceil",
+      "typing",
+      "math",
+      "os",
+      "ArgumentParser",
+      "sys",
+      "Optional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "code2vec.py",
+    "dependencies": [
+      "interactive_predict",
+      "config",
+      "vocabularies",
+      "Code2VecModelBase",
+      "Code2VecModel",
+      "InteractivePredictor",
+      "Config",
+      "model_base",
+      "VocabType",
+      "keras_model",
+      "tensorflow_model"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tensorflow_model.py",
+    "dependencies": [
+      "config",
+      "vocabularies",
+      "Counter",
+      "Dict",
+      "collections",
+      "path_context_reader",
+      "time",
+      "PathContextReader",
+      "Code2VecModelBase",
+      "partial",
+      "common",
+      "typing",
+      "Config",
+      "functools",
+      "model_base",
+      "VocabType",
+      "tensorflow",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "train.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "path_context_reader.py",
+    "dependencies": [
+      "config",
+      "Dict",
+      "enum",
+      "vocabularies",
+      "typing",
+      "abc",
+      "Enum",
+      "functools",
+      "Config",
+      "reduce",
+      "tensorflow",
+      "Code2VecVocabs"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "interactive_predict.py",
+    "dependencies": [
+      "Extractor",
+      "extractor",
+      "traceback",
+      "common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/.gitattributes",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/extract.py",
+    "dependencies": [
+      "argparse",
+      "subprocess",
+      "Popen",
+      "sys",
+      "itertools",
+      "threading",
+      "shutil",
+      "os",
+      "Timer",
+      "ArgumentParser",
+      "multiprocessing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/CSharpExtractor.sln",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Extractor.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Variable.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Utilities.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Program.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Extractor.csproj",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Temp.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/PathFinder.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Tree/Tree.cs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/Extractor/Properties/launchSettings.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CSharpExtractor/CSharpExtractor/.nuget/packages.config",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/extract.py",
+    "dependencies": [
+      "argparse",
+      "subprocess",
+      "itertools",
+      "threading",
+      "shutil",
+      "os",
+      "Timer",
+      "ArgumentParser",
+      "multiprocessing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.project",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.classpath",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/pom.xml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.settings/org.eclipse.jdt.core.prefs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.settings/org.eclipse.core.resources.prefs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/.settings/org.eclipse.m2e.core.prefs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/Test.java",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/App.java",
+    "dependencies": [
+      "java.io.IOException",
+      "JavaExtractor.FeaturesEntities.ProgramRelation",
+      "org.kohsuke.args4j.CmdLineException",
+      "java.nio.file.Files",
+      "java.util.LinkedList",
+      "java.nio.file.Paths",
+      "java.util.concurrent.ThreadPoolExecutor",
+      "java.util.concurrent.Executors",
+      "JavaExtractor.Common.CommandLineValues"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/FeatureExtractor.java",
+    "dependencies": [
+      "java.io.IOException",
+      "com.github.javaparser.ParseException",
+      "java.util.stream.Collectors",
+      "JavaExtractor.Common.MethodContent",
+      "com.github.javaparser.ast.CompilationUnit",
+      "JavaExtractor.FeaturesEntities.Property",
+      "java.util.HashSet",
+      "JavaExtractor.Visitors.FunctionVisitor",
+      "java.util.ArrayList",
+      "JavaExtractor.Common.CommandLineValues",
+      "java.util.StringJoiner",
+      "com.github.javaparser.ParseProblemException",
+      "java.util.Set",
+      "com.github.javaparser.ast.Node",
+      "java.util.stream.Stream",
+      "com.github.javaparser.JavaParser",
+      "JavaExtractor.FeaturesEntities.ProgramFeatures",
+      "JavaExtractor.Common.Common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/ExtractFeaturesTask.java",
+    "dependencies": [
+      "java.io.IOException",
+      "com.github.javaparser.ParseException",
+      "java.util.concurrent.Callable",
+      "org.apache.commons.lang3.StringUtils",
+      "com.github.javaparser.ast.CompilationUnit",
+      "java.nio.file.Path",
+      "java.nio.file.Files",
+      "java.util.ArrayList",
+      "java.util.List",
+      "JavaExtractor.Common.CommandLineValues",
+      "JavaExtractor.FeaturesEntities.ProgramFeatures",
+      "JavaExtractor.Common.Common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/Visitors/LeavesCollectorVisitor.java",
+    "dependencies": [
+      "JavaExtractor.FeaturesEntities.Property",
+      "java.util.ArrayList",
+      "com.github.javaparser.ast.type.ClassOrInterfaceType",
+      "com.github.javaparser.ast.comments.Comment",
+      "java.util.List",
+      "com.github.javaparser.ast.visitor.TreeVisitor",
+      "com.github.javaparser.ast.expr.NullLiteralExpr",
+      "com.github.javaparser.ast.Node",
+      "com.github.javaparser.ast.stmt.Statement",
+      "JavaExtractor.Common.Common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/Visitors/FunctionVisitor.java",
+    "dependencies": [
+      "java.util.stream.Collectors",
+      "java.util.Arrays",
+      "com.github.javaparser.ast.body.MethodDeclaration",
+      "java.util.ArrayList",
+      "com.github.javaparser.ast.visitor.VoidVisitorAdapter",
+      "JavaExtractor.Common.MethodContent",
+      "com.github.javaparser.ast.Node",
+      "JavaExtractor.Common.Common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/FeaturesEntities/Property.java",
+    "dependencies": [
+      "com.github.javaparser.ast.expr.IntegerLiteralExpr",
+      "java.util.stream.Collectors",
+      "com.github.javaparser.ast.expr.BinaryExpr",
+      "com.github.javaparser.ast.expr.UnaryExpr",
+      "com.github.javaparser.ast.expr.AssignExpr",
+      "java.util.HashSet",
+      "java.util.ArrayList",
+      "java.util.stream.Stream",
+      "com.github.javaparser.ast.Node",
+      "com.github.javaparser.ast.type.ClassOrInterfaceType",
+      "JavaExtractor.Common.Common"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/FeaturesEntities/ProgramFeatures.java",
+    "dependencies": [
+      "java.util.ArrayList",
+      "com.fasterxml.jackson.annotation.JsonIgnore",
+      "java.util.stream.Collectors"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/FeaturesEntities/ProgramRelation.java",
+    "dependencies": [
+      "com.fasterxml.jackson.annotation.JsonIgnore",
+      "java.util.function.Function",
+      "com.fasterxml.jackson.annotation.JsonIgnoreProperties",
+      "com.fasterxml.jackson.annotation.JsonPropertyDescription",
+      "java.util.ArrayList"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/FeaturesEntities/ProgramNode.java",
+    "dependencies": [
+      "JavaExtractor.Common.Common",
+      "java.io.UnsupportedEncodingException",
+      "java.net.URLEncoder"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/Common/MethodContent.java",
+    "dependencies": [
+      "java.util.ArrayList",
+      "com.github.javaparser.ast.Node"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/Common/Common.java",
+    "dependencies": [
+      "java.util.stream.Collectors",
+      "com.github.javaparser.ast.UserDataKey",
+      "JavaExtractor.FeaturesEntities.Property",
+      "java.util.ArrayList",
+      "JavaExtractor.FeaturesEntities.ProgramNode",
+      "java.util.stream.Stream",
+      "com.github.javaparser.ast.Node"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "JavaExtractor/JPredict/src/main/java/JavaExtractor/Common/CommandLineValues.java",
+    "dependencies": [
+      "org.kohsuke.args4j.CmdLineParser",
+      "org.kohsuke.args4j.Option",
+      "org.kohsuke.args4j.CmdLineException",
+      "java.io.File"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
